@@ -42,7 +42,6 @@ footer .facebook, footer .twitter { display: inline-block; width: 31px; height: 
 footer .twitter { background: url(../images/tw.png) no-repeat; }
 footer address { position: relative; width: 240px; bottom: 90px; left: 700px; color: #3e2b13; font-size: 14px; }
 
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
