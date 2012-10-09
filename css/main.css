@@ -16,26 +16,32 @@ textarea { resize: vertical; }
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@font-face {
-    font-family: 'NovecentowideBookBold';
-    src: url('../fonts/Novecentowide-Bold-webfont.eot');
-    src: url('../fonts/Novecentowide-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Novecentowide-Bold-webfont.woff') format('woff'),
-         url('../fonts/Novecentowide-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/Novecentowide-Bold-webfont.svg#NovecentowideBookBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html { background-color: #3e2b13; }
-body { background-color: #daf3f8; width: 940px; margin: 0 auto; font-family: 'NovecentowideBookBold', sans-serif; }
+body { background-color: #daf3f8; width: 940px; margin: 0 auto; font-family: 'Open sans', sans-serif; }
 header { width: 100%; height: 129px; background: url(../images/header-bg.png) no-repeat; margin-bottom: -38px; position: relative; }
 header h1 { margin: 9px 0 0 20px; padding: 0; float: left; }
-header nav ul { margin: 65px 0 0 155px; padding: 0; float: left; }
+header nav  { width: 490px; float: left; margin: 60px 0 -10px 145px; }
+header nav ul { margin: 0; padding: 0; float: left; }
 header nav ul li { float: left; }
-header nav ul li a { text-decoration: none; color: #fff; font-size: 19px; font-family: open-sans, sans-serif; padding: 5px 10px 6px; margin-right: 10px; border-radius: 18px; }
+header nav ul li a { text-decoration: none; color: #fff; font-size: 19px; font-weight: 100; font-family: 'Open sans', sans-serif; padding: 5px 10px 6px; margin-right: 10px; border-radius: 18px; }
 header nav ul li a.current, header nav ul li a:hover { background-color: #515153; -webkit-box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.8);
 box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.8); }
+
+.homepage #content { padding-bottom: 70px; }
+.homepage #content #logo-decoration { margin: 60px 90px 0 60px; float: left; }
+.homepage #content .verbiage { width: 500px; float: left; }
+.homepage #content h2 { font-family: 'Pacifico', cursive; font-size: 30px; color: #3e2b13; }
+.homepage #content p { font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 14px; line-height: 1.5em; color: #3e2b13; }
+
+footer { height: 162px; background: url(../images/footer-bg.png) repeat-x; }
+footer h3 { float: left; font-family: 'Pacifico', cursive; font-size: 30px; color: #3e2b13; line-height: 47px; width: 190px; text-indent: -30px; margin-left: 110px; margin-bottom: 0; position: relative; }
+footer h3:before, footer h3:after { content: "“"; font-size: 50px; position: absolute; left: -25px; }
+footer h3:after { content: "”"; left: 152px; }
+footer h3 span { font-size: 50px; }
+footer .facebook, footer .twitter { display: inline-block; width: 31px; height: 31px; text-indent: -9999px; background: url(../images/fb.png) no-repeat; position: relative; bottom: 16px; left: 400px; }
+footer .twitter { background: url(../images/tw.png) no-repeat; }
+footer address { position: relative; width: 240px; bottom: 90px; left: 700px; color: #3e2b13; font-size: 14px; }
+
 
 /* ==========================================================================
    Media Queries
